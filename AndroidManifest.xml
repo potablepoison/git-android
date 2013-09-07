@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="17" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="chapter.two.hello_world.NewPlanet" />
+        <activity android:name="chapter.two.hello_world.ConfigActivity" />
+        <activity android:name="chapter.two.hello_world.TravelActivity" />
+        <activity android:name="chapter.two.hello_world.AttackActivity" />
     </application>
 
 </manifest>
